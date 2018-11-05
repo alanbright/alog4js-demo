@@ -1,0 +1,13 @@
+{
+    "name": "alog4js-demo",
+    "scripts": {
+        "start": "npm run apidoc && npm run Alldoc && node main.js",
+        "apidoc": "./node_modules/.bin/apidoc -i apidoc/Release -o apidoc/Build/ && sed -i 's|\"http://API-URL|window.location.origin+\"|' apidoc/Build/api_data.js && sed -i 's|\"http://API-URL\"|window.location.origin|' apidoc/Build/api_project.js",
+        "Alldoc": "./node_modules/.bin/apidoc -i apidoc/ -o apidoc/AllBuild/ -e apidoc/Build/ -e apidoc/AllBuild/ && sed -i 's|\"http://API-URL|window.location.origin+\"|' apidoc/AllBuild/api_data.js && sed -i 's|\"http://API-URL\"|window.location.origin|' apidoc/AllBuild/api_project.js"
+    },
+    "dependencies": {
+        "alog4js": "0.0.4",
+        "apidoc": "^0.17.6",
+        "express": "^4.16.4"
+    }
+}

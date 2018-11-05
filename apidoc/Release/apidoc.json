@@ -1,0 +1,20 @@
+{
+    "name": "RESTAPI",
+    "version": "0.0.1",
+    "description": "Documentaiton of REST API",
+    "title": "RESTAPI",
+    "url": "http://API-URL",
+    "sampleUrl": "http://API-URL",
+    "header": {
+        "title": "applicable",
+        "filename": "header.md"
+    },
+    "footer": {
+        "title": "copyright",
+        "filename": "footer.md"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
