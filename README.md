@@ -12,6 +12,8 @@ use port 8000 as default
 ## installation
 
 ```bash
+git clone https://github.com/alanbright/alog4js-demo
+cd alog4js-demo
 npm install
 ```
 
