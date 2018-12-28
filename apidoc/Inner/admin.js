@@ -24,8 +24,8 @@
  * @apiVersion 0.0.1
  * @apiGroup admin
  * @api {get} /admin/logUpdate logUpdate
- * @apiParam {String} level the level of log ['trace','debug','info','warn','error','fatal']
  * @apiParam {String} show the domain of log which you want to set
+ * @apiParam {String} level the level of log ['trace','debug','info','warn','error','fatal']
  *
  * @apiDescription get news collect info
  *
