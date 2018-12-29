@@ -50,3 +50,8 @@ We demo by this page. Administator can dynamic change the log setting
 * Access the admin API to change log level or layout domain
 
 * Access the user API and check the new log layout flow
+
+## demo video
+
+[![Video](http://img.youtube.com/vi/iDieNYhmOik/0.jpg)](https://www.youtube.com/watch?v=iDieNYhmOik)
+
